@@ -38,7 +38,7 @@ jobs:
           username: ${{ secrets.DOCKERHUB_USERNAME }}
           password: ${{ secrets.DOCKERHUB_TOKEN }}
       - name: Echo vars
-        run: echo "Releasing version ${{ env.TRAPS_REL }}
+        run: echo "Releasing version ${{ env.TRAPS_REL }}"
 #      - name: Build and push engine
 #        uses: docker/build-push-action@v5
 #        with:
